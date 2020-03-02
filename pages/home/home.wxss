@@ -1,0 +1,30 @@
+/* pages/home/home.wxss */
+
+swiper, swiper-item, swiper-item image {
+   width: 100%;
+   height: 500rpx;
+}
+
+.lunbo {
+   position: relative;
+}
+.dian{
+   position: absolute;
+   right: 20rpx;
+   bottom: 20rpx;
+}
+
+.dian view {
+   float: left;
+   width: 20rpx;
+   height: 20rpx;
+   background: #9999;
+   border-radius: 50%;
+   margin: 0 10rpx;
+}
+
+.dian view.active {
+   background: #333999;
+   width: 36rpx;
+   border-radius: 20rpx;
+}

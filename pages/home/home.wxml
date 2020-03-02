@@ -1,0 +1,13 @@
+<view class="container">
+   <view class="lunbo">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" interval="2000" bindchange="swiperFn">
+         <swiper-item wx:for="{{arry}}">
+            <image src="{{item}}"></image>
+         </swiper-item>
+      </swiper>
+      <view class="dian">
+         <view class="{{index==num?'active':''}}>" wx:for="{{arry}}">
+         </view>
+      </view>
+   </view>
+</view>
